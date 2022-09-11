@@ -1,0 +1,24 @@
+{
+  "name": "group-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankeett/Mern-Group-Project.git"
+  },
+  "author": "Ankit Kafle, Sanskar Adhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankeett/Mern-Group-Project/issues"
+  },
+  "homepage": "https://github.com/ankeett/Mern-Group-Project#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  }
+}
