@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import {Box} from '@mui/material';
 import Exercises from '../components/Exercises';
 import HeroBanner from '../components/HeroBanner';
@@ -7,6 +7,11 @@ const Home = () => {
   const [bodyPart, setBodyPart] =useState('all')
   const [exercises, setExercises]=useState([]);
   console.log(bodyPart)
+
+  useEffect(() => {
+    alert('The website is still in progress!');
+  }, [])
+  
   return (
     <Box>
       <HeroBanner />
